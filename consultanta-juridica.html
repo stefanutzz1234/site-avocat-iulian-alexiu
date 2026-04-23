@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consultanță Juridică Pitești | Cabinet Iulian Alexiu – Argeș</title>
+  <meta name="description" content="Consultanță juridică Pitești cu avocat cu peste 20 de ani experiență. Sfaturi juridice pentru persoane fizice și firme din Argeș. Prima consultație gratuită: +40 741 137 870." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.iulianalexiu-avocat.ro/consultanta-juridica.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    :root { --midnight:#0D1B2A; --deep-black:#080E14; --gold:#C9A848; --gold-light:#E2C97E; --gold-dim:rgba(201,168,72,0.15); --burgundy:#2a0f14; --steel:#4A5568; --white:#F8F8F8; --text-muted:#8A9BB0; --nav-height:120px; --transition:0.4s cubic-bezier(0.25,0.46,0.45,0.94); }
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { background:var(--midnight); color:var(--white); font-family:'Cormorant Garamond',Georgia,serif; font-weight:400; line-height:1.7; overflow-x:hidden; }
+    a { text-decoration:none; color:inherit; }
+    img { display:block; max-width:100%; }
+    #nav { position:fixed; top:0; left:0; right:0; z-index:1000; height:var(--nav-height); display:flex; align-items:center; padding:0 60px; background:var(--midnight); border-bottom:1px solid rgba(201,168,72,0.12); transition:box-shadow var(--transition); }
+    #nav.scrolled { box-shadow:0 4px 30px rgba(0,0,0,0.4); }
+    .nav-inner { width:100%; display:flex; align-items:center; justify-content:space-between; }
+    .nav-logo-text { display:flex; flex-direction:column; align-items:center; gap:0; line-height:1; }
+    .nav-logo-name { font-family:'Cinzel',serif; font-size:1.35rem; font-weight:700; letter-spacing:0.12em; color:var(--white); text-transform:uppercase; white-space:nowrap; }
+    .nav-logo-icon { color:var(--gold); font-size:1.3rem; margin:4px 0 3px; }
+    .nav-logo-sub { font-family:'Cinzel',serif; font-size:0.52rem; letter-spacing:0.22em; color:var(--text-muted); text-transform:uppercase; white-space:nowrap; }
+    .nav-logo-divider { display:flex; align-items:center; gap:8px; width:100%; justify-content:center; margin-bottom:4px; }
+    .nav-logo-divider::before, .nav-logo-divider::after { content:''; flex:1; height:1px; background:rgba(201,168,72,0.4); }
+    .nav-links { display:flex; align-items:center; gap:44px; list-style:none; }
+    .nav-links a { font-family:'Cinzel',serif; font-size:0.72rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--white); position:relative; padding-bottom:4px; transition:color var(--transition); }
+    .nav-links a::after { content:''; position:absolute; bottom:0; left:0; width:0; height:1px; background:var(--gold); transition:width var(--transition); }
+    .nav-links a:hover { color:var(--gold); } .nav-links a:hover::after { width:100%; }
+    .nav-cta { font-family:'Cinzel',serif; font-size:0.68rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--deep-black); background:var(--gold); padding:11px 28px; transition:background var(--transition); }
+    .nav-cta:hover { background:var(--gold-light); }
+    .page-hero { padding:calc(var(--nav-height) + 80px) 0 80px; background:var(--midnight); position:relative; overflow:hidden; }
+    .page-hero::before { content:''; position:absolute; inset:0; background-image:repeating-linear-gradient(-45deg,transparent,transparent 60px,rgba(201,168,72,0.03) 60px,rgba(201,168,72,0.03) 61px); pointer-events:none; }
+    .container { max-width:1100px; margin:0 auto; padding:0 60px; }
+    .breadcrumb { display:flex; align-items:center; gap:10px; font-family:'Cinzel',serif; font-size:0.65rem; letter-spacing:0.15em; text-transform:uppercase; color:var(--text-muted); margin-bottom:32px; }
+    .breadcrumb a { color:var(--gold); } .breadcrumb span { color:var(--steel); }
+    .page-eyebrow { display:flex; align-items:center; gap:16px; margin-bottom:24px; }
+    .page-eyebrow .line { width:40px; height:1px; background:var(--gold); }
+    .page-eyebrow span { font-family:'Cinzel',serif; font-size:0.7rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); }
+    h1.page-title { font-family:'Cinzel',serif; font-size:clamp(2.2rem,4vw,3.6rem); font-weight:700; line-height:1.1; color:var(--white); margin-bottom:28px; }
+    h1.page-title em { font-style:normal; color:var(--gold); }
+    .page-intro { font-size:1.2rem; font-style:italic; color:var(--text-muted); max-width:700px; line-height:1.9; margin-bottom:48px; }
+    .hero-ctas { display:flex; gap:20px; flex-wrap:wrap; }
+    .btn-primary { display:inline-flex; align-items:center; gap:10px; font-family:'Cinzel',serif; font-size:0.72rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--deep-black); background:var(--gold); padding:18px 38px; transition:background var(--transition),transform var(--transition),box-shadow var(--transition); }
+    .btn-primary:hover { background:var(--gold-light); transform:translateY(-3px); box-shadow:0 12px 40px rgba(201,168,72,0.3); }
+    .btn-ghost { display:inline-flex; align-items:center; gap:10px; font-family:'Cinzel',serif; font-size:0.72rem; letter-spacing:0.16em; text-transform:uppercase; color:var(--white); border:1px solid rgba(255,255,255,0.25); padding:18px 38px; transition:border-color var(--transition),color var(--transition),transform var(--transition); }
+    .btn-ghost:hover { border-color:var(--gold); color:var(--gold); transform:translateY(-3px); }
+    .page-content { padding:100px 0; background:#0A1420; }
+    .gold-rule { width:60px; height:1px; background:var(--gold); margin:32px 0; }
+    .section-label { display:flex; align-items:center; gap:16px; margin-bottom:16px; }
+    .section-label .line { width:40px; height:1px; background:var(--gold); }
+    .section-label span { font-family:'Cinzel',serif; font-size:0.68rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); }
+    h2.content-heading { font-family:'Cinzel',serif; font-size:clamp(1.8rem,3vw,2.6rem); font-weight:700; color:var(--white); margin-bottom:24px; line-height:1.2; }
+    .content-text { font-size:1.1rem; color:var(--text-muted); line-height:1.9; max-width:800px; }
+    .content-text p { margin-bottom:20px; }
+    .areas-list { display:flex; flex-direction:column; gap:16px; margin:40px 0; }
+    .area-item { display:flex; align-items:flex-start; gap:16px; padding:20px 24px; background:rgba(201,168,72,0.04); border:1px solid rgba(201,168,72,0.12); }
+    .area-item i { color:var(--gold); margin-top:3px; flex-shrink:0; }
+    .area-item span { font-size:1.05rem; color:var(--text-muted); }
+    .area-item strong { color:var(--white); }
+    .benefits-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:2px; margin:60px 0; }
+    .benefit-card { background:var(--midnight); padding:40px 36px; border-top:2px solid rgba(201,168,72,0.2); transition:border-color var(--transition),background var(--transition); }
+    .benefit-card:hover { background:#0e1e30; border-top-color:var(--gold); }
+    .benefit-icon { font-size:1.6rem; color:var(--gold); margin-bottom:20px; }
+    .benefit-card h3 { font-family:'Cinzel',serif; font-size:1rem; font-weight:600; color:var(--white); margin-bottom:12px; }
+    .benefit-card p { font-size:1rem; color:var(--text-muted); line-height:1.8; }
+    .cta-section { background:var(--burgundy); padding:100px 0; text-align:center; position:relative; overflow:hidden; }
+    .cta-section::before { content:''; position:absolute; inset:0; background:radial-gradient(ellipse at 50% 50%,rgba(201,168,72,0.08) 0%,transparent 70%); }
+    .cta-inner { position:relative; z-index:1; }
+    .cta-eyebrow { font-family:'Cinzel',serif; font-size:0.7rem; letter-spacing:0.3em; text-transform:uppercase; color:var(--gold); margin-bottom:20px; display:block; }
+    h2.cta-heading { font-family:'Cinzel',serif; font-size:clamp(2rem,3.5vw,3rem); font-weight:700; color:var(--white); margin-bottom:20px; line-height:1.2; }
+    .cta-sub { font-size:1.15rem; font-style:italic; color:rgba(248,248,248,0.65); margin-bottom:48px; }
+    .cta-buttons { display:flex; gap:20px; justify-content:center; flex-wrap:wrap; }
+    footer { background:var(--deep-black); border-top:1px solid rgba(201,168,72,0.15); padding:60px 0 40px; }
+    .footer-bottom { max-width:1100px; margin:0 auto; padding:0 60px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:20px; }
+    .footer-bottom p { font-size:0.85rem; color:var(--steel); }
+    .footer-links { display:flex; gap:32px; }
+    .footer-links a { font-family:'Cinzel',serif; font-size:0.65rem; letter-spacing:0.12em; text-transform:uppercase; color:var(--text-muted); transition:color var(--transition); }
+    .footer-links a:hover { color:var(--gold); }
+    .reveal { opacity:0; transform:translateY(30px); transition:opacity 0.8s ease,transform 0.8s ease; }
+    .reveal.visible { opacity:1; transform:translateY(0); }
+    @media(max-width:768px) { :root{--nav-height:70px;} #nav{padding:0 24px;} .nav-links,.nav-cta{display:none;} .container{padding:0 24px;} .benefits-grid{grid-template-columns:1fr;} .footer-bottom{flex-direction:column;text-align:center;} }
+    .nav-logo-img { display:flex; align-items:center; text-decoration:none; }
+    .nav-logo-img img { height:160px; width:auto; }
+  </style>
+</head>
+<body>
+<nav id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo-img"><img src="brand assets1/logo_cu_backround-removebg-preview.png" alt="Iulian Alexiu – Cabinet de Avocatură" /></a>
+    <ul class="nav-links">
+      <li><a href="index.html#acasa">Acasă</a></li>
+      <li><a href="index.html#despre">Despre</a></li>
+      <li><a href="index.html#servicii">Servicii</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+    <a href="index.html#contact" class="nav-cta">Consultație</a>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Acasă</a><span>/</span><span>Consultanță Juridică Pitești</span>
+    </div>
+    <div class="page-eyebrow"><div class="line"></div><span>Consultanță Juridică · Pitești, Argeș</span></div>
+    <h1 class="page-title">Consultanță Juridică<br /><em>Pitești, Județul Argeș</em></h1>
+    <p class="page-intro">
+      Nu știți ce drepturi aveți sau cum să procedați? Avocatul Iulian Alexiu
+      din Pitești vă oferă o consultanță juridică clară, fără termeni complicați,
+      bazată pe peste 20 de ani de experiență.
+    </p>
+    <div class="hero-ctas">
+      <a href="tel:+40741137870" class="btn-primary"><i class="fa-solid fa-phone"></i>Sună Acum</a>
+      <a href="index.html#contact" class="btn-ghost"><i class="fa-regular fa-calendar-check"></i>Programează o Consultație</a>
+    </div>
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container">
+    <div class="reveal">
+      <div class="section-label"><div class="line"></div><span>Ce Oferim</span></div>
+      <h2 class="content-heading">Sfaturi Juridice Clare<br />de la un Avocat din Pitești</h2>
+      <div class="gold-rule"></div>
+      <div class="content-text">
+        <p>
+          O consultație juridică la timp poate face diferența dintre o situație rezolvată
+          amiabil și un litigiu costisitor. Avocatul dumneavoastră din Pitești analizează
+          situația, vă explică drepturile și obligațiile și vă recomandă cea mai
+          eficientă cale de acțiune.
+        </p>
+        <p>
+          Consultanța noastră juridică se adresează atât persoanelor fizice din Pitești
+          și județul Argeș, cât și societăților comerciale care au nevoie de un partener
+          juridic de încredere pentru decizii importante.
+        </p>
+      </div>
+    </div>
+
+    <div class="areas-list reveal">
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Consultanță drept civil</strong> — contracte, proprietăți, succesiuni, litigii</span></div>
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Consultanță drept penal</strong> — drepturi înainte de audiere, strategie de apărare</span></div>
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Consultanță drept comercial</strong> — înființare firmă, contracte, protecția afacerii</span></div>
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Consultanță dreptul familiei</strong> — divorț, custodie, pensie alimentară</span></div>
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Consultanță dreptul muncii</strong> — concediere, drepturi salariale, contracte de muncă</span></div>
+      <div class="area-item"><i class="fa-solid fa-check"></i><span><strong>Redactare acte juridice</strong> — contracte, cereri, notificări, plângeri penale</span></div>
+    </div>
+
+    <div class="benefits-grid reveal">
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fa-solid fa-comments"></i></div>
+        <h3>Explicații Clare, Fără Jargon</h3>
+        <p>Vă explicăm situația juridică în termeni simpli și vă prezentăm toate opțiunile disponibile, cu avantajele și riscurile fiecăreia.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fa-solid fa-lock"></i></div>
+        <h3>Confidențialitate Totală</h3>
+        <p>Tot ceea ce discutați cu avocatul dumneavoastră este protejat de secretul profesional. Puteți vorbi deschis și sincer.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fa-solid fa-clock"></i></div>
+        <h3>Răspuns Rapid</h3>
+        <p>Înțelegem că unele situații juridice sunt urgente. Depunem efort pentru a vă răspunde în cel mai scurt timp posibil.</p>
+      </div>
+      <div class="benefit-card">
+        <div class="benefit-icon"><i class="fa-solid fa-award"></i></div>
+        <h3>20+ Ani de Practică în Argeș</h3>
+        <p>Cunoașterea aprofundată a legislației românești și a practicii instanțelor din Pitești și Argeș, în serviciul dumneavoastră.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-inner reveal">
+      <span class="cta-eyebrow">Consultanță Juridică Pitești</span>
+      <h2 class="cta-heading">Aveți o problemă juridică?<br />Vorbiți cu avocatul din Pitești.</h2>
+      <p class="cta-sub">Prima consultație este gratuită. Sunați acum sau programați o întâlnire la cabinetul nostru din Pitești, Bulevardul Eroilor nr. 10.</p>
+      <div class="cta-buttons">
+        <a href="tel:+40741137870" class="btn-primary"><i class="fa-solid fa-phone"></i>Sună Acum: +40 741 137 870</a>
+        <a href="index.html#contact" class="btn-ghost"><i class="fa-regular fa-calendar-check"></i>Programează o Consultație</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-bottom">
+    <p>&copy; 2024 Iulian Alexiu – Avocat Pitești. Toate drepturile rezervate.</p>
+    <div class="footer-links">
+      <a href="index.html">Acasă</a>
+      <a href="drept-penal.html">Drept Penal</a>
+      <a href="drept-civil.html">Drept Civil</a>
+      <a href="drept-comercial.html">Drept Comercial</a>
+      <a href="index.html#contact">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  window.addEventListener('scroll', () => { document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60); });
+  const obs = new IntersectionObserver(entries => entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+</script>
+</body>
+</html>

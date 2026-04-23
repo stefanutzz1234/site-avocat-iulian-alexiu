@@ -1,0 +1,1824 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avocat Pitești | Cabinet de Avocatură Iulian Alexiu – Argeș</title>
+  <meta name="description" content="Avocat Pitești cu peste 20 de ani experiență. Cabinet de avocatură Iulian Alexiu oferă consultanță juridică, drept penal, civil și comercial în Pitești și județul Argeș. Sună acum: +40 741 137 870." />
+  <meta name="keywords" content="avocat Pitesti, avocat Arges, cabinet avocatura Pitesti, avocat drept penal Pitesti, avocat drept civil Pitesti, consultanta juridica Pitesti, Iulian Alexiu avocat" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.iulianalexiu-avocat.ro/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Avocat Pitești – Cabinet de Avocatură Iulian Alexiu" />
+  <meta property="og:description" content="Avocat Pitești cu peste 20 de ani experiență. Drept penal, civil, comercial. Reprezentare în instanțele din România. Consultație gratuită." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="ro_RO" />
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LegalService",
+    "name": "Cabinet de Avocatură Iulian Alexiu",
+    "description": "Avocat Pitești cu peste 20 de ani experiență în drept penal, civil, comercial și familiei. Reprezentare în instanțele din România.",
+    "url": "https://www.iulianalexiu-avocat.ro",
+    "telephone": "+40741137870",
+    "email": "avocatiulianalexiu@yahoo.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Bulevardul Eroilor nr. 10",
+      "addressLocality": "Pitești",
+      "addressRegion": "Argeș",
+      "addressCountry": "RO"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "44.8565",
+      "longitude": "24.8692"
+    },
+    "openingHoursSpecification": [
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "09:00", "closes": "18:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "10:00", "closes": "14:00" }
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Iulian Alexiu",
+      "jobTitle": "Avocat"
+    },
+    "areaServed": ["Pitești", "Argeș", "România"],
+    "priceRange": "$$"
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    /* ── CSS VARIABLES ─────────────────────────────────── */
+    :root {
+      --midnight: #0D1B2A;
+      --deep-black: #080E14;
+      --gold: #C9A848;
+      --gold-light: #E2C97E;
+      --gold-dim: rgba(201,168,72,0.15);
+      --burgundy: #2a0f14;
+      --steel: #4A5568;
+      --white: #F8F8F8;
+      --text-muted: #8A9BB0;
+      --nav-height: 120px;
+      --section-pad: 120px;
+      --transition: 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+    }
+
+    /* ── RESET & BASE ──────────────────────────────────── */
+    *, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      background: var(--midnight);
+      color: var(--white);
+      font-family: 'Cormorant Garamond', Georgia, serif;
+      font-weight: 400;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    a { text-decoration: none; color: inherit; }
+    img { display: block; max-width: 100%; }
+    button { font-family: inherit; cursor: pointer; border: none; background: none; }
+
+    /* ── SCROLL REVEAL ─────────────────────────────────── */
+    .reveal {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .reveal.slide-left {
+      transform: translateX(-50px);
+    }
+    .reveal.slide-right {
+      transform: translateX(50px);
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translate(0, 0);
+    }
+
+    /* ── TOP BAR ───────────────────────────────────────── */
+    #top-bar {
+      background: #000;
+      border-bottom: 1px solid rgba(201,168,72,0.2);
+      padding: 10px 60px;
+      position: relative;
+      z-index: 1001;
+    }
+    .top-bar-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 24px;
+    }
+    .top-bar-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: var(--white);
+      font-family: 'Cinzel', serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      transition: color var(--transition);
+    }
+    .top-bar-item i { color: var(--gold); font-size: 0.95rem; }
+    .top-bar-item:hover { color: var(--white); }
+    .top-bar-divider {
+      width: 1px;
+      height: 14px;
+      background: rgba(201,168,72,0.3);
+    }
+    @media (max-width: 768px) {
+      #top-bar { padding: 8px 24px; }
+      .top-bar-item span { font-size: 0.68rem; }
+    }
+
+    /* ── NAV ───────────────────────────────────────────── */
+    #nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      height: var(--nav-height);
+      display: flex;
+      align-items: center;
+      padding: 0 60px;
+      background: var(--midnight);
+      border-bottom: 1px solid rgba(201,168,72,0.12);
+      transition: top 0.35s ease, box-shadow var(--transition);
+    }
+    #nav.scrolled {
+      box-shadow: 0 4px 30px rgba(0,0,0,0.4);
+    }
+    .nav-inner {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+      line-height: 1;
+      text-decoration: none;
+    }
+    .nav-logo-img {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+    }
+    .nav-logo-img img {
+      height: 160px;
+      width: auto;
+    }
+    .nav-logo-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: var(--white);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .nav-logo-icon {
+      color: var(--gold);
+      font-size: 1.3rem;
+      margin: 4px 0 3px;
+    }
+    .nav-logo-sub {
+      font-family: 'Cinzel', serif;
+      font-size: 0.52rem;
+      letter-spacing: 0.22em;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+    .nav-logo-divider {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      justify-content: center;
+      margin-bottom: 4px;
+    }
+    .nav-logo-divider::before,
+    .nav-logo-divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: rgba(201,168,72,0.4);
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 44px;
+      list-style: none;
+    }
+    .nav-links a {
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--white);
+      position: relative;
+      padding-bottom: 4px;
+      transition: color var(--transition);
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0;
+      width: 0; height: 1px;
+      background: var(--gold);
+      transition: width var(--transition);
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--deep-black);
+      background: var(--gold);
+      padding: 11px 28px;
+      transition: background var(--transition), color var(--transition);
+    }
+    .nav-cta:hover { background: var(--gold-light); }
+
+    /* hamburger */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 26px; height: 1px;
+      background: var(--gold);
+      transition: var(--transition);
+    }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(8,14,20,0.98);
+      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: 'Cinzel', serif;
+      font-size: 1.4rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--white);
+      transition: color var(--transition);
+    }
+    .mobile-menu a:hover { color: var(--gold); }
+    .mobile-close {
+      position: absolute;
+      top: 30px; right: 30px;
+      font-size: 1.8rem;
+      color: var(--gold);
+      cursor: pointer;
+    }
+
+    /* ── HERO ──────────────────────────────────────────── */
+    #hero {
+      position: relative;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: var(--midnight);
+    }
+    .hero-bg-pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        repeating-linear-gradient(
+          -45deg,
+          transparent,
+          transparent 60px,
+          rgba(201,168,72,0.03) 60px,
+          rgba(201,168,72,0.03) 61px
+        );
+      pointer-events: none;
+    }
+    .hero-bg-glow {
+      position: absolute;
+      top: -20%;
+      right: -10%;
+      width: 60vw;
+      height: 100vh;
+      background: radial-gradient(ellipse at 70% 40%, rgba(201,168,72,0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 60px;
+      padding-top: calc(var(--nav-height) + var(--topbar-height, 43px));
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 80px;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .hero-text { padding: 60px 0; }
+    .hero-eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 32px;
+      opacity: 0;
+      animation: fadeInUp 0.8s ease 0.2s forwards;
+    }
+    .hero-eyebrow .line {
+      width: 48px; height: 1px;
+      background: var(--gold);
+    }
+    .hero-eyebrow span {
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .hero-headline {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2.8rem, 5vw, 5.2rem);
+      font-weight: 700;
+      line-height: 1.08;
+      color: var(--white);
+      margin-bottom: 28px;
+      opacity: 0;
+      animation: fadeInUp 0.8s ease 0.45s forwards;
+    }
+    .hero-headline em {
+      font-style: normal;
+      color: var(--gold);
+    }
+    .hero-sub {
+      font-size: 1.25rem;
+      font-weight: 300;
+      color: var(--text-muted);
+      font-style: italic;
+      max-width: 520px;
+      line-height: 1.8;
+      margin-bottom: 52px;
+      opacity: 0;
+      animation: fadeInUp 0.8s ease 0.65s forwards;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      opacity: 0;
+      animation: fadeInUp 0.8s ease 0.85s forwards;
+    }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--deep-black);
+      background: var(--gold);
+      padding: 18px 38px;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+    }
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(201,168,72,0.3);
+    }
+    .btn-ghost {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--white);
+      border: 1px solid rgba(255,255,255,0.25);
+      padding: 18px 38px;
+      transition: border-color var(--transition), color var(--transition), transform var(--transition);
+    }
+    .btn-ghost:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      transform: translateY(-3px);
+    }
+    .hero-photo-wrap {
+      position: relative;
+      opacity: 0;
+      animation: fadeInRight 1s ease 1s forwards;
+    }
+    .hero-photo-frame {
+      position: relative;
+      width: 100%;
+    }
+    .hero-photo-frame::before {
+      content: '';
+      position: absolute;
+      top: -16px; right: -16px;
+      width: 100%; height: 100%;
+      border: 1px solid var(--gold);
+      opacity: 0.4;
+      z-index: 0;
+    }
+    .hero-photo-frame::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 35%;
+      background: linear-gradient(to top, var(--midnight) 0%, transparent 100%);
+      z-index: 2;
+    }
+    .hero-photo-frame img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 620px;
+      object-fit: cover;
+      object-position: center top;
+      clip-path: polygon(0 0, 100% 0, 100% 92%, 85% 100%, 0 100%);
+      filter: grayscale(20%) contrast(1.05);
+    }
+    .hero-photo-badge {
+      position: absolute;
+      bottom: 32px;
+      left: -24px;
+      z-index: 10;
+      background: var(--gold);
+      color: var(--deep-black);
+      padding: 18px 24px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .hero-photo-badge .badge-name {
+      font-family: 'Cinzel', serif;
+      font-size: 1rem;
+      font-weight: 700;
+      display: block;
+      line-height: 1.2;
+    }
+    .hero-photo-badge .badge-title {
+      font-size: 0.78rem;
+      font-style: italic;
+      opacity: 0.85;
+      display: block;
+      margin-top: 2px;
+    }
+
+    /* ── SECTION UTILITY ───────────────────────────────── */
+    .section { padding: var(--section-pad) 0; }
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 60px;
+    }
+    .section-label {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+    .section-label .line { width: 40px; height: 1px; background: var(--gold); }
+    .section-label span {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .section-heading {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2rem, 3.5vw, 3.2rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--white);
+    }
+    .gold-rule {
+      width: 60px; height: 1px;
+      background: var(--gold);
+      margin: 32px 0;
+    }
+
+    /* ── ABOUT ─────────────────────────────────────────── */
+    #despre {
+      background: #0A1420;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+      align-items: center;
+    }
+    .about-photo-wrap { position: relative; }
+    .about-photo-corners::before,
+    .about-photo-corners::after {
+      content: '';
+      position: absolute;
+      width: 60px; height: 60px;
+    }
+    .about-photo-corners::before {
+      top: -12px; left: -12px;
+      border-top: 2px solid var(--gold);
+      border-left: 2px solid var(--gold);
+    }
+    .about-photo-corners::after {
+      bottom: -12px; right: -12px;
+      border-bottom: 2px solid var(--gold);
+      border-right: 2px solid var(--gold);
+    }
+    .about-photo-corners img {
+      width: 100%;
+      height: 600px;
+      object-fit: cover;
+      object-position: center top;
+      filter: grayscale(15%) contrast(1.05);
+    }
+    .about-photo-exp {
+      position: absolute;
+      bottom: -24px; right: -24px;
+      background: var(--gold);
+      color: var(--deep-black);
+      padding: 28px 32px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+    }
+    .about-photo-exp .exp-num {
+      font-family: 'Cinzel', serif;
+      font-size: 2.8rem;
+      font-weight: 800;
+      line-height: 1;
+      display: block;
+    }
+    .about-photo-exp .exp-label {
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      display: block;
+      margin-top: 4px;
+    }
+    .about-text .section-heading { margin-bottom: 28px; }
+    .about-text p {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 20px;
+    }
+    .about-credentials {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 40px;
+    }
+    .credential-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .credential-item i {
+      color: var(--gold);
+      font-size: 0.9rem;
+      margin-top: 4px;
+      flex-shrink: 0;
+    }
+    .credential-item span {
+      font-size: 1rem;
+      color: var(--text-muted);
+      font-style: italic;
+    }
+
+    /* ── SERVICII ──────────────────────────────────────── */
+    #servicii { background: var(--midnight); }
+    .servicii-header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    .servicii-header .section-label { justify-content: center; }
+    .servicii-header .gold-rule { margin: 24px auto; }
+    .servicii-header p {
+      font-size: 1.2rem;
+      color: var(--text-muted);
+      font-style: italic;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .servicii-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2px;
+    }
+    .service-card {
+      position: relative;
+      background: #0A1420;
+      padding: 52px 40px;
+      border-top: 2px solid transparent;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition), background var(--transition);
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: var(--gold);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform var(--transition);
+    }
+    .service-card:hover {
+      background: #0e1e30;
+      transform: translateY(-6px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(201,168,72,0.1);
+    }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-card:hover .service-icon { color: var(--gold); transform: scale(1.1); }
+    .service-icon {
+      font-size: 1.8rem;
+      color: rgba(201,168,72,0.5);
+      margin-bottom: 28px;
+      transition: color var(--transition), transform var(--transition);
+    }
+    .service-card h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 16px;
+      letter-spacing: 0.05em;
+    }
+    .service-card p {
+      font-size: 1rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+
+    /* ── STATS ─────────────────────────────────────────── */
+    #stats {
+      background: var(--burgundy);
+      position: relative;
+      overflow: hidden;
+    }
+    #stats::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C9A848' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    .stats-inner {
+      position: relative;
+      z-index: 1;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      position: relative;
+    }
+    .stat-item {
+      text-align: center;
+      padding: 80px 40px;
+      position: relative;
+    }
+    .stat-item::after {
+      content: '';
+      position: absolute;
+      top: 50%; right: 0;
+      transform: translateY(-50%);
+      height: 80px; width: 1px;
+      background: rgba(201,168,72,0.2);
+    }
+    .stat-item:last-child::after { display: none; }
+    .stat-num {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2.8rem, 4vw, 4.5rem);
+      font-weight: 800;
+      color: var(--gold);
+      line-height: 1;
+      display: block;
+    }
+    .stat-suffix {
+      font-family: 'Cinzel', serif;
+      font-size: 1.5rem;
+      color: var(--gold-light);
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: rgba(248,248,248,0.6);
+      margin-top: 12px;
+      display: block;
+    }
+
+    /* ── PROCES ────────────────────────────────────────── */
+    #proces {
+      background: #080E14;
+      background-image:
+        radial-gradient(ellipse at 0% 50%, rgba(201,168,72,0.12) 0%, transparent 45%),
+        radial-gradient(ellipse at 100% 50%, rgba(201,168,72,0.10) 0%, transparent 45%),
+        radial-gradient(ellipse at 50% 0%, rgba(201,168,72,0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 100%, rgba(42,15,20,0.7) 0%, transparent 50%),
+        repeating-linear-gradient(
+          0deg,
+          transparent,
+          transparent 60px,
+          rgba(201,168,72,0.03) 60px,
+          rgba(201,168,72,0.03) 61px
+        ),
+        repeating-linear-gradient(
+          90deg,
+          transparent,
+          transparent 60px,
+          rgba(201,168,72,0.03) 60px,
+          rgba(201,168,72,0.03) 61px
+        );
+      position: relative;
+    }
+    #proces::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 600px 600px at 15% 30%, rgba(201,168,72,0.06) 0%, transparent 70%),
+        radial-gradient(ellipse 400px 400px at 85% 70%, rgba(201,168,72,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .proces-header {
+      text-align: center;
+      margin-bottom: 100px;
+    }
+    .proces-header .section-label { justify-content: center; }
+    .proces-header .gold-rule { margin: 24px auto; }
+    .proces-steps {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .proces-step {
+      display: grid;
+      grid-template-columns: 1fr 80px 1fr;
+      align-items: center;
+      gap: 0;
+      min-height: 160px;
+    }
+    .step-content {
+      padding: 40px 60px;
+    }
+    .step-content.right { text-align: right; }
+    .step-num-col {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+    }
+    .step-circle {
+      width: 64px; height: 64px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--midnight);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      color: var(--gold);
+      font-weight: 700;
+      position: relative;
+      z-index: 2;
+    }
+    .step-line {
+      width: 1px;
+      flex: 1;
+      background: linear-gradient(to bottom, var(--gold) 0%, rgba(201,168,72,0.1) 100%);
+      min-height: 80px;
+    }
+    .step-content h3 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--white);
+      margin-bottom: 12px;
+    }
+    .step-content p {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+    .step-content i {
+      font-size: 1.6rem;
+      color: var(--gold);
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    /* ── CONTACT ───────────────────────────────────────── */
+    #contact { background: var(--midnight); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+      align-items: start;
+    }
+    .contact-info .section-heading { margin-bottom: 40px; }
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    .contact-item {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+    .contact-icon {
+      width: 48px; height: 48px;
+      border: 1px solid rgba(201,168,72,0.3);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--gold);
+      flex-shrink: 0;
+      transition: background var(--transition), border-color var(--transition);
+    }
+    .contact-item:hover .contact-icon {
+      background: var(--gold-dim);
+      border-color: var(--gold);
+    }
+    .contact-item-text strong {
+      font-family: 'Cinzel', serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 6px;
+    }
+    .contact-item-text span {
+      font-size: 1.05rem;
+      color: var(--text-muted);
+    }
+    .contact-hours {
+      margin-top: 48px;
+      padding: 32px;
+      border: 1px solid rgba(201,168,72,0.15);
+      background: rgba(201,168,72,0.03);
+    }
+    .contact-hours h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+    .hours-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      font-size: 0.98rem;
+      color: var(--text-muted);
+    }
+    .hours-row:last-child { border-bottom: none; }
+    /* contact form */
+    .contact-form { display: flex; flex-direction: column; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; }
+    .form-group label {
+      font-family: 'Cinzel', serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.1);
+      color: var(--white);
+      padding: 16px 20px;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      outline: none;
+      transition: border-color var(--transition), background var(--transition);
+      width: 100%;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--gold);
+      background: rgba(201,168,72,0.04);
+    }
+    .form-group select option { background: #0D1B2A; }
+    .form-group textarea { resize: vertical; min-height: 140px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .btn-submit {
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--deep-black);
+      background: var(--gold);
+      padding: 20px 48px;
+      cursor: pointer;
+      border: none;
+      transition: background var(--transition), transform var(--transition), box-shadow var(--transition);
+      align-self: flex-start;
+    }
+    .btn-submit:hover {
+      background: var(--gold-light);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(201,168,72,0.3);
+    }
+    .form-disclaimer {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--steel);
+      margin-top: 8px;
+    }
+
+    /* ── FOOTER ────────────────────────────────────────── */
+    footer {
+      background: var(--deep-black);
+      border-top: 1px solid rgba(201,168,72,0.15);
+      padding: 80px 0 40px;
+    }
+    .footer-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 60px;
+    }
+    .footer-top {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 60px;
+      padding-bottom: 60px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+    .footer-brand img { height: 240px; width: auto; margin-bottom: 24px; }
+    .footer-brand p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      font-style: italic;
+      line-height: 1.8;
+    }
+    .footer-col h4 {
+      font-family: 'Cinzel', serif;
+      font-size: 0.72rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+    }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
+    .footer-col ul li a {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      transition: color var(--transition), padding-left var(--transition);
+    }
+    .footer-col ul li a:hover { color: var(--gold); padding-left: 8px; }
+    .footer-bottom {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .footer-bottom p {
+      font-size: 0.85rem;
+      color: var(--steel);
+    }
+    .footer-social {
+      display: flex;
+      gap: 16px;
+    }
+    .footer-social a {
+      width: 40px; height: 40px;
+      border: 1px solid rgba(201,168,72,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      transition: color var(--transition), border-color var(--transition), background var(--transition);
+    }
+    .footer-social a:hover {
+      color: var(--gold);
+      border-color: var(--gold);
+      background: var(--gold-dim);
+    }
+
+    /* ── PHONE NUMBER HERO ─────────────────────────────── */
+    .hero-phone-icon {
+      color: var(--gold);
+      font-size: 2.2rem;
+      animation: phonePulse 1.8s ease-in-out infinite;
+    }
+    .hero-phone-number {
+      font-family: 'Cinzel', serif;
+      font-size: clamp(2.8rem, 5vw, 4.4rem);
+      font-weight: 700;
+      color: #ffffff;
+      letter-spacing: 0.06em;
+      line-height: 1;
+      text-shadow: 0 0 24px rgba(255,255,255,0.25);
+      animation: phoneGlow 2.4s ease-in-out infinite;
+    }
+    @keyframes phonePulse {
+      0%, 100% { transform: scale(1) rotate(0deg); color: var(--gold); }
+      30%       { transform: scale(1.25) rotate(-12deg); color: var(--gold-light); }
+      60%       { transform: scale(1.1) rotate(8deg); color: var(--gold); }
+    }
+    @keyframes phoneGlow {
+      0%, 100% { text-shadow: 0 0 8px rgba(255,255,255,0.1); }
+      50%       { text-shadow: 0 0 32px rgba(255,255,255,0.55), 0 0 60px rgba(201,168,72,0.25); }
+    }
+
+    /* ── ANIMATIONS ────────────────────────────────────── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInRight {
+      from { opacity: 0; transform: translateX(40px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+
+    /* ── SCROLL TO TOP ─────────────────────────────────── */
+    #scroll-top {
+      position: fixed;
+      bottom: 36px; right: 36px;
+      width: 48px; height: 48px;
+      background: var(--gold);
+      color: var(--deep-black);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity var(--transition), transform var(--transition);
+      z-index: 500;
+      font-size: 1rem;
+    }
+    #scroll-top.visible { opacity: 1; pointer-events: auto; }
+    #scroll-top:hover { transform: translateY(-4px); }
+
+    /* ── RESPONSIVE ────────────────────────────────────── */
+    @media (max-width: 1100px) {
+      :root { --section-pad: 80px; }
+      .container { padding: 0 40px; }
+      .hero-inner { padding: 0 40px; padding-top: var(--nav-height); grid-template-columns: 1fr; gap: 60px; }
+      .hero-text { padding: 60px 0 0; }
+      .hero-photo-wrap { max-width: 420px; margin: 0 auto; }
+      .about-grid { grid-template-columns: 1fr; gap: 60px; }
+      .about-photo-wrap { max-width: 500px; }
+      .servicii-grid { grid-template-columns: repeat(2, 1fr); }
+      .stats-grid { grid-template-columns: repeat(2, 1fr); }
+      .stat-item::after { display: none; }
+      .contact-grid { grid-template-columns: 1fr; gap: 60px; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      :root { --nav-height: 70px; }
+      #nav { padding: 0 24px; }
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .hero-headline { font-size: clamp(2.2rem, 8vw, 3.2rem); }
+      .container { padding: 0 24px; }
+      .servicii-grid { grid-template-columns: 1fr; }
+      .stats-grid { grid-template-columns: 1fr 1fr; }
+      .proces-step { grid-template-columns: 1fr 60px 1fr; }
+      .step-content { padding: 24px 20px; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-top { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .hero-inner { min-height: auto; padding-top: calc(var(--nav-height) + 20px); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div id="top-bar">
+    <div class="top-bar-inner">
+      <a href="tel:+40741137870" class="top-bar-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+40 741 137 870</span>
+      </a>
+      <div class="top-bar-divider"></div>
+      <a href="mailto:avocatiulianalexiu@yahoo.com" class="top-bar-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>avocatiulianalexiu@yahoo.com</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- NAV -->
+  <nav id="nav">
+    <div class="nav-inner">
+      <a href="#acasa" class="nav-logo-img" aria-label="Iulian Alexiu Cabinet de Avocatură">
+        <img src="brand assets1/logo_cu_backround-removebg-preview.png" alt="Iulian Alexiu – Cabinet de Avocatură" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="#acasa">Acasă</a></li>
+        <li><a href="#despre">Despre</a></li>
+        <li><a href="#servicii">Servicii</a></li>
+        <li><a href="#proces">Proces</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Consultație</a>
+      <div class="hamburger" id="hamburger" aria-label="Meniu" role="button" tabindex="0">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <span class="mobile-close" id="mobileClose"><i class="fa fa-times"></i></span>
+    <a href="#acasa" class="mobile-link">Acasă</a>
+    <a href="#despre" class="mobile-link">Despre</a>
+    <a href="#servicii" class="mobile-link">Servicii</a>
+    <a href="#proces" class="mobile-link">Proces</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section id="acasa">
+    <div id="hero">
+      <div class="hero-bg-pattern"></div>
+      <div class="hero-bg-glow"></div>
+      <div class="hero-inner">
+        <div class="hero-text">
+          <div class="hero-eyebrow">
+            <div class="line"></div>
+            <span>Avocat Pitești · Argeș</span>
+          </div>
+          <h1 class="hero-headline">
+            Consultanță, Asistență și<br /><em>Reprezentare Juridică</em>
+          </h1>
+          <a href="tel:+40741137870" class="hero-phone-big" style="
+            display:inline-flex;
+            align-items:center;
+            gap:16px;
+            margin-bottom:28px;
+            opacity:0;
+            animation:fadeInUp 0.8s ease 0.65s forwards;
+            text-decoration:none;
+          ">
+            <i class="fa-solid fa-phone hero-phone-icon"></i>
+            <span class="hero-phone-number">+40 741 137 870</span>
+          </a>
+          <p class="hero-sub">
+            Avocat în Pitești și județul Argeș cu peste 20 de ani de experiență.
+            Reprezentare în instanțele din România, consultanță juridică și apărare
+            în dosare penale, civile și comerciale.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn-primary">
+              <i class="fa-regular fa-calendar-check"></i>
+              Programează o Consultație
+            </a>
+            <a href="tel:+40741137870" class="btn-ghost">
+              <i class="fa-solid fa-phone"></i>
+              Sună Acum
+            </a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo-frame">
+            <img src="brand assets1/imagine avocat.jpeg" alt="Av. Iulian Alexiu" />
+          </div>
+          <div class="hero-photo-badge">
+            <span class="badge-name">Av. Iulian Alexiu</span>
+            <span class="badge-title">Cabinet de Avocatură</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DESPRE -->
+  <section id="despre" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-photo-wrap reveal slide-left">
+          <div class="about-photo-corners">
+            <img src="brand assets1/imagine avocat semnare.jpeg" alt="Av. Iulian Alexiu" />
+          </div>
+          <div class="about-photo-exp">
+            <span class="exp-num">20+</span>
+            <span class="exp-label">Ani Experiență</span>
+          </div>
+        </div>
+        <div class="about-text reveal slide-right">
+          <div class="section-label">
+            <div class="line"></div>
+            <span>Despre Cabinet</span>
+          </div>
+          <h2 class="section-heading">Avocat Iulian Alexiu<br />Pitești, Județul Argeș</h2>
+          <div class="gold-rule"></div>
+          <p>
+            Cu peste 20 de ani de practică în dreptul românesc, Cabinetul de Avocatură
+            Iulian Alexiu din Pitești oferă consultanță juridică și reprezentare
+            de cea mai înaltă calitate în fața instanțelor din România.
+          </p>
+          <p>
+            Fiecare caz este tratat cu rigoare profesională, transparență totală și
+            angajament ferm față de apărarea drepturilor dumneavoastră — indiferent
+            de complexitatea situației juridice din Argeș sau din orice altă regiune a țării.
+          </p>
+          <div class="about-credentials">
+            <div class="credential-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Membru al Baroului Argeș, cu drept de exercitare a profesiei</span>
+            </div>
+            <div class="credential-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Peste 20 de ani de experiență în instanțele din România</span>
+            </div>
+            <div class="credential-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Reprezentare în Judecătoria Pitești, Tribunal Argeș și Curtea de Apel</span>
+            </div>
+            <div class="credential-item">
+              <i class="fa-solid fa-check"></i>
+              <span>Consultanță juridică pentru persoane fizice și societăți comerciale</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SLIDER GALERIE -->
+  <section id="galerie" style="background:#060C12; padding:0; overflow:hidden; position:relative;">
+    <!-- Caption overlay -->
+    <div style="position:absolute; top:0; left:0; right:0; bottom:0; z-index:2; pointer-events:none;
+      background: linear-gradient(to right, rgba(6,12,18,0.7) 0%, transparent 35%, transparent 65%, rgba(6,12,18,0.7) 100%),
+                  linear-gradient(to bottom, rgba(6,12,18,0.4) 0%, transparent 30%, transparent 70%, rgba(6,12,18,0.6) 100%);
+    "></div>
+    <!-- Slide counter & dots -->
+    <div id="slider-dots" style="position:absolute; bottom:32px; left:50%; transform:translateX(-50%); z-index:10; display:flex; gap:10px;"></div>
+    <!-- Central text -->
+    <div style="position:absolute; bottom:60px; left:60px; z-index:10; max-width:600px;">
+      <div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+        <div style="width:32px; height:1px; background:var(--gold);"></div>
+        <span id="slide-label" style="font-family:'Cinzel',serif; font-size:0.65rem; letter-spacing:0.25em; text-transform:uppercase; color:var(--gold); transition:opacity 0.5s;">Cabinet de Avocatură</span>
+      </div>
+      <h3 id="slide-title" style="font-family:'Cinzel',serif; font-size:clamp(1.4rem,2.5vw,2rem); font-weight:700; color:#fff; line-height:1.2; transition:opacity 0.5s;"></h3>
+    </div>
+    <!-- Slider track -->
+    <div id="slider-track" style="display:flex; transition:transform 0.8s cubic-bezier(0.77,0,0.18,1); will-change:transform;"></div>
+  </section>
+
+  <style>
+    #galerie { height: 520px; }
+    @media(max-width:768px) { #galerie { height: 300px; } }
+    #slider-track .slide { min-width:100vw; height:520px; position:relative; overflow:hidden; }
+    @media(max-width:768px) { #slider-track .slide { height:300px; } }
+    #slider-track .slide img { width:100%; height:100%; object-fit:cover; object-position:center; filter:brightness(0.75); transition:transform 8s ease; }
+    #slider-track .slide.active img { transform:scale(1.06); }
+    .slider-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,0.3); border:none; cursor:pointer; transition:background 0.3s, transform 0.3s; padding:0; }
+    .slider-dot.active { background:var(--gold); transform:scale(1.3); }
+    .slider-arrow { position:absolute; top:50%; transform:translateY(-50%); z-index:10; background:rgba(201,168,72,0.15); border:1px solid rgba(201,168,72,0.4); color:var(--gold); width:48px; height:48px; display:flex; align-items:center; justify-content:center; cursor:pointer; transition:background 0.3s; font-size:1rem; }
+    .slider-arrow:hover { background:rgba(201,168,72,0.35); }
+    #arrow-prev { left:32px; }
+    #arrow-next { right:32px; }
+  </style>
+
+  <script>
+  (function(){
+    const slides = [
+      { img: 'brand assets1/semnare.png',          label: 'Reprezentare Juridică',    title: 'Alături de dvs. la fiecare pas al procesului juridic', pos: 'center 15%' },
+      { img: 'brand assets1/semnarecontract.png',  label: 'Consultanță Juridică',     title: 'Analizăm fiecare caz cu atenție și dedicare maximă', pos: 'center' },
+    ];
+
+    const track = document.getElementById('slider-track');
+    const dotsEl = document.getElementById('slider-dots');
+    let current = 0, timer;
+
+    // Build slides
+    slides.forEach((s, i) => {
+      const div = document.createElement('div');
+      div.className = 'slide' + (i===0?' active':'');
+      div.innerHTML = '<img src="'+s.img+'" alt="'+s.label+'" loading="lazy" style="object-position:'+s.pos+'"/>';
+      track.appendChild(div);
+      const dot = document.createElement('button');
+      dot.className = 'slider-dot'+(i===0?' active':'');
+      dot.setAttribute('aria-label','Slide '+(i+1));
+      dot.addEventListener('click',()=>goTo(i));
+      dotsEl.appendChild(dot);
+    });
+
+    // Arrows
+    ['prev','next'].forEach(dir => {
+      const btn = document.createElement('button');
+      btn.id = 'arrow-'+dir;
+      btn.className = 'slider-arrow';
+      btn.innerHTML = dir==='prev' ? '<i class="fa-solid fa-chevron-left"></i>' : '<i class="fa-solid fa-chevron-right"></i>';
+      btn.addEventListener('click', () => goTo(dir==='prev' ? (current-1+slides.length)%slides.length : (current+1)%slides.length));
+      document.getElementById('galerie').appendChild(btn);
+    });
+
+    function goTo(n){
+      document.querySelectorAll('#slider-track .slide')[current].classList.remove('active');
+      document.querySelectorAll('.slider-dot')[current].classList.remove('active');
+      current = n;
+      track.style.transform = 'translateX(-'+current+'00vw)';
+      document.querySelectorAll('#slider-track .slide')[current].classList.add('active');
+      document.querySelectorAll('.slider-dot')[current].classList.add('active');
+      document.getElementById('slide-label').textContent = slides[current].label;
+      document.getElementById('slide-title').textContent = slides[current].title;
+      resetTimer();
+    }
+
+    function resetTimer(){ clearInterval(timer); timer = setInterval(()=>goTo((current+1)%slides.length), 5000); }
+
+    // Init
+    document.getElementById('slide-title').textContent = slides[0].title;
+    resetTimer();
+  })();
+  </script>
+
+  <!-- SERVICII -->
+  <section id="servicii" class="section">
+    <div class="container">
+      <div class="servicii-header reveal">
+        <div class="section-label">
+          <div class="line"></div>
+          <span>Domenii de Practică</span>
+          <div class="line"></div>
+        </div>
+        <h2 class="section-heading">Servicii Juridice Complete<br />în Pitești și Argeș</h2>
+        <div class="gold-rule"></div>
+        <p>Avocat Pitești cu experiență în drept penal, civil, comercial și familiei. Reprezentare în instanțele din județul Argeș și din întreaga Românie.</p>
+      </div>
+      <div class="servicii-grid">
+        <div class="service-card reveal" style="transition-delay:0.05s">
+          <div class="service-icon"><i class="fa-solid fa-gavel"></i></div>
+          <h3>Avocat Drept Penal Pitești</h3>
+          <p>Apărare în dosare penale, asistență juridică pe tot parcursul procesului penal la Judecătoria Pitești, Tribunal Argeș și Curțile de Apel.</p>
+          <a href="drept-penal.html" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Află mai mult →</a>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.1s">
+          <div class="service-icon"><i class="fa-solid fa-scale-balanced"></i></div>
+          <h3>Avocat Drept Civil Pitești</h3>
+          <p>Litigii civile, acțiuni în pretenții, succesiuni, partaje judiciare și răspundere civilă în fața instanțelor din Argeș și din toată România.</p>
+          <a href="drept-civil.html" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Află mai mult →</a>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.15s">
+          <div class="service-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Avocat Drept Comercial Pitești</h3>
+          <p>Consultanță juridică pentru societăți comerciale din Argeș: contracte, insolvență, litigii comerciale și arbitraj.</p>
+          <a href="drept-comercial.html" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Află mai mult →</a>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.2s">
+          <div class="service-icon"><i class="fa-solid fa-heart"></i></div>
+          <h3>Dreptul Familiei</h3>
+          <p>Divorț, custodie copii, partaj bunuri comune, pensie alimentară și autoritate părintească în Pitești și județul Argeș.</p>
+          <a href="#contact" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Programează o consultație →</a>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.25s">
+          <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+          <h3>Drept Imobiliar</h3>
+          <p>Tranzacții imobiliare, retrocedări, litigii de carte funciară și drept urbanistic în Pitești și județul Argeș.</p>
+          <a href="#contact" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Programează o consultație →</a>
+        </div>
+        <div class="service-card reveal" style="transition-delay:0.3s">
+          <div class="service-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>Consultanță Juridică</h3>
+          <p>Consultanță juridică pentru persoane fizice și juridice din Pitești și Argeș — drept civil, penal, comercial, muncii și familiei.</p>
+          <a href="consultanta-juridica.html" style="display:inline-block;margin-top:20px;font-family:'Cinzel',serif;font-size:0.68rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--gold);border-bottom:1px solid rgba(201,168,72,0.4);padding-bottom:2px;">Află mai mult →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section id="stats" class="section">
+    <div class="container stats-inner">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <span class="stat-num" data-target="20" data-suffix="+">0</span>
+          <span class="stat-suffix" style="display:none">+</span>
+          <span class="stat-label">Ani de Experiență</span>
+        </div>
+        <div class="stat-item reveal" style="transition-delay:0.1s">
+          <span class="stat-num" data-target="500" data-suffix="+">0</span>
+          <span class="stat-label">Cazuri Soluționate</span>
+        </div>
+        <div class="stat-item reveal" style="transition-delay:0.2s">
+          <span class="stat-num" data-target="2000" data-suffix="+">0</span>
+          <span class="stat-label">Clienți Mulțumiți</span>
+        </div>
+        <div class="stat-item reveal" style="transition-delay:0.3s">
+          <span class="stat-num" data-target="24" data-suffix="/7">0</span>
+          <span class="stat-label">Disponibilitate</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCES -->
+  <section id="proces" class="section">
+    <div class="container">
+      <div class="proces-header reveal">
+        <div class="section-label">
+          <div class="line"></div>
+          <span>Cum Lucrăm</span>
+          <div class="line"></div>
+        </div>
+        <h2 class="section-heading">Cum Lucrează Avocatul<br />Dumneavoastră din Pitești</h2>
+        <div class="gold-rule"></div>
+      </div>
+      <div class="proces-steps">
+        <div class="proces-step">
+          <div class="step-content right reveal slide-left">
+            <i class="fa-regular fa-calendar-check"></i>
+            <h3>01. Consultație Inițială</h3>
+            <p>Analizăm situația dumneavoastră juridică în cadrul unei consultații confidențiale, identificând opțiunile disponibile.</p>
+          </div>
+          <div class="step-num-col">
+            <div class="step-circle">01</div>
+            <div class="step-line"></div>
+          </div>
+          <div></div>
+        </div>
+        <div class="proces-step">
+          <div></div>
+          <div class="step-num-col">
+            <div class="step-line"></div>
+            <div class="step-circle">02</div>
+            <div class="step-line"></div>
+          </div>
+          <div class="step-content reveal slide-right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>02. Analiză și Documentare</h3>
+            <p>Studiem în detaliu toate aspectele cazului, culegem probele necesare și elaborăm strategia juridică optimă.</p>
+          </div>
+        </div>
+        <div class="proces-step">
+          <div class="step-content right reveal slide-left">
+            <i class="fa-solid fa-chess"></i>
+            <h3>03. Strategie și Planificare</h3>
+            <p>Concepem o strategie juridică personalizată, adaptată circumstanțelor specifice și obiectivelor dumneavoastră.</p>
+          </div>
+          <div class="step-num-col">
+            <div class="step-line"></div>
+            <div class="step-circle">03</div>
+            <div class="step-line"></div>
+          </div>
+          <div></div>
+        </div>
+        <div class="proces-step">
+          <div></div>
+          <div class="step-num-col">
+            <div class="step-line"></div>
+            <div class="step-circle">04</div>
+          </div>
+          <div class="step-content reveal slide-right">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>04. Reprezentare și Apărare</h3>
+            <p>Vă reprezentăm cu profesionalism maxim în fața instanțelor și autorităților, apărând cu fermitate drepturile dumneavoastră.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section" style="background:#0A1420;">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal slide-left">
+          <div class="section-label">
+            <div class="line"></div>
+            <span>Contactați-ne</span>
+          </div>
+          <h2 class="section-heading">Avocat Pitești –<br />Suntem Alături de Dvs.</h2>
+          <div class="gold-rule"></div>
+          <a href="tel:+40741137870" class="btn-primary" style="display:inline-flex;margin-bottom:40px;">
+            <i class="fa-solid fa-phone"></i>
+            Sună Acum: +40 741 137 870
+          </a>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="contact-item-text">
+                <strong>Telefon</strong>
+                <span>+40 741 137 870</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="contact-item-text">
+                <strong>Email</strong>
+                <span>avocatiulianalexiu@yahoo.com</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="contact-item-text">
+                <strong>Adresă</strong>
+                <span>Bulevardul Eroilor nr. 10, Pitești, Județul Argeș</span>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+              <div class="contact-item-text">
+                <strong>Program de Lucru</strong>
+                <span>Luni – Vineri: 08:00 – 18:00</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-hours">
+            <h4>Program de Lucru</h4>
+            <div class="hours-row"><span>Luni – Vineri</span><span>08:00 – 18:00</span></div>
+            <div class="hours-row"><span>Sâmbătă – Duminică</span><span>Închis</span></div>
+            <div class="hours-row" style="margin-top:12px;border-top:1px solid rgba(201,168,72,0.2);padding-top:12px;">
+              <span style="color:var(--gold);font-weight:600;">Urgențe</span>
+              <span style="color:var(--gold);font-weight:600;">24/7</span>
+            </div>
+          </div>
+        </div>
+        <div class="reveal slide-right">
+          <form class="contact-form" onsubmit="handleSubmit(event)" id="contact-form">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Prenume</label>
+                <input type="text" id="fname" name="fname" placeholder="Ion" required />
+              </div>
+              <div class="form-group">
+                <label for="lname">Nume</label>
+                <input type="text" id="lname" name="lname" placeholder="Popescu" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email">Adresă Email</label>
+              <input type="email" id="email" name="email" placeholder="ion.popescu@email.ro" required />
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="+40 7XX XXX XXX" />
+            </div>
+            <div class="form-group">
+              <label for="domeniu">Domeniu Juridic</label>
+              <select id="domeniu" name="domeniu">
+                <option value="">Selectați domeniul...</option>
+                <option>Drept Penal</option>
+                <option>Drept Civil</option>
+                <option>Drept Comercial</option>
+                <option>Dreptul Familiei</option>
+                <option>Drept Imobiliar</option>
+                <option>Dreptul Muncii</option>
+                <option>Altul</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mesaj">Descrieți pe scurt situația</label>
+              <textarea id="mesaj" name="mesaj" placeholder="Vă rugăm să descrieți pe scurt situația juridică în care vă aflați..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <i class="fa-regular fa-paper-plane"></i>&ensp;Trimite Mesajul
+            </button>
+            <p class="form-disclaimer">
+              Informațiile transmise sunt confidențiale și protejate prin secretul profesional al avocatului.
+            </p>
+            <div style="border:1px solid rgba(201,168,72,0.2); overflow:hidden; margin-top:24px;">
+              <iframe
+                src="https://maps.google.com/maps?q=Bulevardul+Eroilor+10,+Pitesti,+Arges,+Romania&output=embed"
+                width="100%"
+                height="200"
+                style="border:0; display:block; filter:grayscale(20%);"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Cabinet Avocat Iulian Alexiu – Pitești">
+              </iframe>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="brand assets1/logo_cu_backround-removebg-preview.png" alt="Iulian Alexiu – Cabinet de Avocatură" />
+          <p>Avocat Pitești cu peste 20 de ani de experiență. Reprezentare în instanțele din România și consultanță juridică specializată în județul Argeș.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigare</h4>
+          <ul>
+            <li><a href="#acasa">Acasă</a></li>
+            <li><a href="#despre">Despre Cabinet</a></li>
+            <li><a href="drept-penal.html">Avocat Drept Penal</a></li>
+            <li><a href="drept-civil.html">Avocat Drept Civil</a></li>
+            <li><a href="drept-comercial.html">Avocat Drept Comercial</a></li>
+            <li><a href="consultanta-juridica.html">Consultanță Juridică</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Rapid</h4>
+          <ul>
+            <li><a href="tel:+40741137870"><i class="fa-solid fa-phone" style="color:var(--gold);margin-right:8px;font-size:0.8rem"></i>+40 741 137 870</a></li>
+            <li><a href="mailto:avocatiulianalexiu@yahoo.com"><i class="fa-solid fa-envelope" style="color:var(--gold);margin-right:8px;font-size:0.8rem"></i>avocatiulianalexiu@yahoo.com</a></li>
+            <li><a href="#contact"><i class="fa-solid fa-location-dot" style="color:var(--gold);margin-right:8px;font-size:0.8rem"></i>Pitești, Județul Argeș</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Iulian Alexiu – Cabinet de Avocatură. Toate drepturile rezervate.</p>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCROLL TO TOP -->
+  <div id="scroll-top" aria-label="Sus" role="button" tabindex="0">
+    <i class="fa-solid fa-chevron-up"></i>
+  </div>
+
+  <script>
+    // ── NAV SCROLL ─────────────────────────────────────────
+    const nav = document.getElementById('nav');
+    const scrollTopBtn = document.getElementById('scroll-top');
+    const topBar = document.getElementById('top-bar');
+
+    function updateNav() {
+      const topBarH = topBar.offsetHeight;
+      if (window.scrollY >= topBarH) {
+        nav.style.top = '0';
+        nav.classList.add('scrolled');
+        scrollTopBtn.classList.add('visible');
+      } else {
+        nav.style.top = (topBarH - window.scrollY) + 'px';
+        nav.classList.remove('scrolled');
+        scrollTopBtn.classList.remove('visible');
+      }
+    }
+
+    // set initial position
+    function initTopBar() {
+      const h = topBar.offsetHeight;
+      nav.style.top = h + 'px';
+      document.documentElement.style.setProperty('--topbar-height', h + 'px');
+    }
+    initTopBar();
+    window.addEventListener('scroll', updateNav);
+    window.addEventListener('resize', () => { initTopBar(); updateNav(); });
+
+    scrollTopBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // ── MOBILE MENU ─────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const mobileClose = document.getElementById('mobileClose');
+
+    hamburger.addEventListener('click', () => mobileMenu.classList.add('open'));
+    mobileClose.addEventListener('click', () => mobileMenu.classList.remove('open'));
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => mobileMenu.classList.remove('open'));
+    });
+
+    // ── SCROLL REVEAL ───────────────────────────────────────
+    const revealEls = document.querySelectorAll('.reveal');
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    revealEls.forEach(el => revealObserver.observe(el));
+
+    // ── STAT COUNTER ────────────────────────────────────────
+    let countersStarted = false;
+
+    function animateCounters() {
+      document.querySelectorAll('.stat-num').forEach(el => {
+        const target = parseInt(el.dataset.target);
+        const suffix = el.dataset.suffix || '';
+        const duration = 1800;
+        const start = performance.now();
+
+        function update(now) {
+          const elapsed = now - start;
+          const progress = Math.min(elapsed / duration, 1);
+          // ease-out cubic
+          const ease = 1 - Math.pow(1 - progress, 3);
+          const current = Math.floor(ease * target);
+          el.textContent = current + suffix;
+          if (progress < 1) requestAnimationFrame(update);
+        }
+        requestAnimationFrame(update);
+      });
+    }
+
+    const statsSection = document.getElementById('stats');
+    const statsObserver = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting && !countersStarted) {
+        countersStarted = true;
+        animateCounters();
+      }
+    }, { threshold: 0.3 });
+    statsObserver.observe(statsSection);
+
+    // ── FORM SUBMIT ─────────────────────────────────────────
+    async function handleSubmit(e) {
+      e.preventDefault();
+      const form = e.target;
+      const btn = form.querySelector('.btn-submit');
+      btn.disabled = true;
+      btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i>&ensp;Se trimite...';
+      const data = new FormData(form);
+      try {
+        const response = await fetch('https://formspree.io/f/avocatiulianalexiu@yahoo.com', {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        });
+        if (response.ok) {
+          btn.innerHTML = '<i class="fa-solid fa-check"></i>&ensp;Mesaj trimis!';
+          btn.style.background = '#2d6a4f';
+          btn.style.color = '#fff';
+          form.reset();
+          setTimeout(() => {
+            btn.innerHTML = '<i class="fa-regular fa-paper-plane"></i>&ensp;Trimite Mesajul';
+            btn.style.background = '';
+            btn.style.color = '';
+            btn.disabled = false;
+          }, 4000);
+        } else {
+          throw new Error('Eroare server');
+        }
+      } catch (err) {
+        btn.innerHTML = '<i class="fa-solid fa-xmark"></i>&ensp;Eroare. Încercați din nou.';
+        btn.style.background = '#8b0000';
+        btn.style.color = '#fff';
+        btn.disabled = false;
+        setTimeout(() => {
+          btn.innerHTML = '<i class="fa-regular fa-paper-plane"></i>&ensp;Trimite Mesajul';
+          btn.style.background = '';
+          btn.style.color = '';
+        }, 4000);
+      }
+    }
+
+    // ── ACTIVE NAV LINK ─────────────────────────────────────
+    const sections = document.querySelectorAll('section[id], div[id]');
+    const navLinksAll = document.querySelectorAll('.nav-links a');
+
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+      });
+      navLinksAll.forEach(link => {
+        link.style.color = '';
+        if (link.getAttribute('href') === '#' + current) {
+          link.style.color = 'var(--gold)';
+        }
+      });
+    });
+  </script>
+</body>
+</html>
