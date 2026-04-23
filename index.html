@@ -136,8 +136,17 @@
       background: rgba(201,168,72,0.3);
     }
     @media (max-width: 768px) {
-      #top-bar { padding: 8px 24px; }
-      .top-bar-item span { font-size: 0.68rem; }
+      #top-bar { padding: 8px 16px; }
+      .top-bar-inner { gap: 14px; }
+      .top-bar-item { gap: 6px; }
+      .top-bar-item span { font-size: 0.72rem; letter-spacing: 0.02em; }
+      .top-bar-item i { font-size: 0.72rem; }
+      .top-bar-divider { height: 12px; }
+    }
+    @media (max-width: 420px) {
+      .top-bar-inner { flex-direction: column; gap: 4px; }
+      .top-bar-divider { display: none; }
+      .top-bar-item span { font-size: 0.78rem; }
     }
 
     /* ── NAV ───────────────────────────────────────────── */
